@@ -22,8 +22,21 @@ body{
   display: flex;
 }
 
+.apresentacao__conteudo{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 615px;
+}
+
 .apresentacao__conteudo__titulo{
+  font-size: 36px;
   font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 strong {
